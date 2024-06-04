@@ -1,0 +1,162 @@
+
+.nav-logo{
+    width: 80px;
+    height: 80px;
+    margin-right: 37px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-li{
+    list-style: none;
+    margin-right: 65px;
+    transition: all .6s;
+}
+.nav-li:hover{
+    color: #ff993a;
+    cursor: pointer;
+}
+.nav-title{
+    font-size: 24px;
+    color: #ff993a;
+    margin-right: 188px;
+}
+.header-welcome{
+    color: #ff993a;
+}
+.header-title{
+    color: #ff463a;
+    font-size: 48px;
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.header-text{
+    font-size: 20px;
+    width: 530px;
+    margin-bottom: 45px;
+}
+.header-button{
+    background: #ff463a;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid #ff463a;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: #ffe4cc;
+    padding: 134px 150px 0 150px;
+}
+.main{
+    display: flex;
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+.ice-cream{
+    background: #efefef;
+    padding: 40px 160px;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    border-radius: 10px;
+}
+.popular-ice-cream{
+    color: #ff463a;
+    font-size: 36px;
+}
+.ice-cream-count{
+    font-size: 20px;
+}
+.ice-cream-shop{
+    border: 1px solid #000;
+border-radius: 5px;
+padding: 15px 30px;
+width: 157px;
+height: 53px;
+}
+.our-info-title{
+    font-size: 50px;
+    color: #ff463a;
+    text-align: center;
+}
+.our-info-text{
+    font-size: 20px;
+    text-align: center;
+}
+.our-info-photos-item{
+    height: 390px;
+    width: 24%;
+}
+.our-info-photos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    background: #FFE4CC;
+}
+.our-info{
+    background: #FFE4CC;
+   padding: 60px 150px 100px 150px; 
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 150px;
+    gap: 20px;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 30px 35px 53px 35px;
+    height: 348px;
+}
+.footer-items-icon{
+    width: 100px;
+    height: 100px;
+}
+.footer-items:nth-child(1){
+    background: red;
+}
+.footer-items:nth-child(1){
+    background: red;
+}
+.footer-items:nth-child(1) h4,.footer-items:nth-child(1) p{
+    color: white;
+}
+.footer-items-desc,.footer-items-data{
+    font-size: 32px;
+    font-weight: 700;
+}
+.footer-items-data{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.footer-accent{
+    background: #181818;
+    display: flex;
+    color: #FFFFFF;
+   padding: 60px 150px;
+   justify-content: space-between; 
+   align-items: center;
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
